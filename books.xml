@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bookstore>
+	<book id="1">
+		<name>安徒生童话</name>
+		<author>安徒生</author>
+		<year>2000</year>
+		<price>100</price>
+	</book>
+	<book id="2">
+		<name>安徒生童话2</name>
+		<author>安徒生2</author>
+		<year>2002</year>
+		<price>102</price>
+	</book>
+	<book id="3">
+		<name>安徒生童话</name>
+		<author>安徒生3</author>
+		<year>20003</year>
+		<price>1003</price>
+	</book>
+	<book id="4">
+		<name>安徒生童话4</name>
+		<author>安徒生4</author>
+		<year>20024</year>
+		<price>1024</price>
+	</book>
+	<book id="5">
+		<name>安徒生童话5</name>
+		<author>安徒生5</author>
+		<year>20005</year>
+		<price>1005</price>
+	</book>
+	<book id="6">
+		<name>安徒生童话6</name>
+		<author>安徒生6</author>
+		<year>20026</year>
+		<price>1026</price>
+	</book>
+	<book id="7">
+		<name>安徒生童话7</name>
+		<author>安徒生7</author>
+		<year>20007</year>
+		<price>100</price>
+	</book>
+	<book id="8">
+		<name>安徒生童话8</name>
+		<author>安徒生8</author>
+		<year>20028</year>
+		<price>1028</price>
+	</book>
+	<book id="9">
+		<name>安徒生童话9</name>
+		<author>安徒生9</author>
+		<year>20009</year>
+		<price>1009</price>
+	</book>
+	<book id="10">
+		<name>安徒生童话10</name>
+		<author>安徒生10</author>
+		<year>200210</year>
+		<price>10210</price>
+	</book>
+	<book id="11">
+		<name>安徒生童话11</name>
+		<author>安徒生11</author>
+		<year>200011</year>
+		<price>10011</price>
+	</book>
+	<book id="12">
+		<name>安徒生童话12</name>
+		<author>安徒生12</author>
+		<year>20012</year>
+		<price>1012</price>
+	</book>
+</bookstore>
