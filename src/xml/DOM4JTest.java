@@ -75,7 +75,7 @@ public class DOM4JTest {
         try {
             // *************DOM4J读取xml文件*******************
             SAXReader reader = new SAXReader();
-            Document document = reader.read("books.xml");
+            Document document = reader.read(XMLSeedTest.XML_FILE);
             
             // ****************获取根节点开始解析***************************
             Element bookStore = document.getRootElement();

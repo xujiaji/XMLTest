@@ -1,12 +1,5 @@
 package xml;
 
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.InputStream;
-import java.util.ArrayList;
-import java.util.List;
-
 import org.jdom2.Attribute;
 import org.jdom2.Document;
 import org.jdom2.Element;
@@ -14,9 +7,15 @@ import org.jdom2.JDOMException;
 import org.jdom2.input.SAXBuilder;
 import org.jdom2.output.Format;
 import org.jdom2.output.XMLOutputter;
-
 import xml.entity.Book;
 import xml.util.GenericHelper;
+
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Created by jiana on 27/11/16.
@@ -75,7 +74,7 @@ public class JDOMTest {
         try {
             //***********JDOM的初始步骤**********
             SAXBuilder saxBuilder = new SAXBuilder();
-            InputStream in = new FileInputStream("books.xml");
+            InputStream in = new FileInputStream(XMLSeedTest.XML_FILE);
             Document document = saxBuilder.build(in);
             
             //*****************开始解析******************

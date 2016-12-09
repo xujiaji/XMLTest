@@ -1,18 +1,11 @@
 package xml;
 
-import xml.entity.Book;
-import xml.util.GenericHelper;
-
 import org.xml.sax.Attributes;
 import org.xml.sax.SAXException;
 import org.xml.sax.helpers.AttributesImpl;
 import org.xml.sax.helpers.DefaultHandler;
-
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
+import xml.entity.Book;
+import xml.util.GenericHelper;
 
 import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.parsers.SAXParser;
@@ -24,6 +17,11 @@ import javax.xml.transform.TransformerException;
 import javax.xml.transform.sax.SAXTransformerFactory;
 import javax.xml.transform.sax.TransformerHandler;
 import javax.xml.transform.stream.StreamResult;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Created by jiana on 26/11/16.
@@ -103,7 +101,7 @@ public class SAXTest {
             //通过factory获取SAXParser对象
             SAXParser parser = factory.newSAXParser();
             SAXParserHandler handler = new SAXParserHandler();
-            parser.parse("books.xml", handler);
+            parser.parse(XMLSeedTest.XML_FILE, handler);
             return handler.getBookList();
         } catch (ParserConfigurationException | SAXException | IOException e) {
             e.printStackTrace();
